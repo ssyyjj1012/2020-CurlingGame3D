@@ -42,11 +42,20 @@
 
 - STONE_MOVE 구현
 <img src = https://user-images.githubusercontent.com/52689953/123450114-52ff7f80-d617-11eb-99a0-a8fbbf3c67d8.png width=800 height=300>
+<img src = https://user-images.githubusercontent.com/52689953/124733591-4cde9c80-df4f-11eb-9efa-8b1fc5acd93a.png width=800 height=300>
+<img src = https://user-images.githubusercontent.com/52689953/124733682-641d8a00-df4f-11eb-8311-9cd53d32a6ae.png width=800 height=300>
+
 
 - POWER SIDER
 <img src = https://user-images.githubusercontent.com/52689953/123450770-06687400-d618-11eb-8367-10d77a373be7.png width=600 height=300>
 <img src = https://user-images.githubusercontent.com/52689953/123450555-d3be7b80-d617-11eb-9c8a-1eaf83d06715.png width=400 height=300> 
 
+
+- BOXCHECK
+<img src = https://user-images.githubusercontent.com/52689953/124733775-7ac3e100-df4f-11eb-9c58-b3634d679f2d.png width=600 height=300>
+
+> 아래와 같이 BoxCollider 설정
+<img src = https://user-images.githubusercontent.com/52689953/124733818-86170c80-df4f-11eb-8917-c8ce7916bb9b.png width=800 height=300>
 
 
 ### 구현 영상
