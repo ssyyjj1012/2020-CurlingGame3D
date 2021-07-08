@@ -57,12 +57,50 @@
 > 아래와 같이 BoxCollider 설정
 <img src = https://user-images.githubusercontent.com/52689953/124733818-86170c80-df4f-11eb-8917-c8ce7916bb9b.png width=800 height=300>
 
+> Red 차례일 경우 : red차례 UI 활성화
+> Yellow 차례일 경우 : yellow 차례 UI 활성화
+![image](https://user-images.githubusercontent.com/52689953/124916357-8b4a8900-e02d-11eb-8aa7-f3fde972f67e.png)
+
+
+- SCORE_CAL
+![image](https://user-images.githubusercontent.com/52689953/124916432-a2897680-e02d-11eb-85f3-1c0a6e53bd44.png)
+
+![image](https://user-images.githubusercontent.com/52689953/124916485-b3d28300-e02d-11eb-8761-145fdbd5bd65.png)
+
+
+- IMAGE_CUT
+![image](https://user-images.githubusercontent.com/52689953/124916567-c6e55300-e02d-11eb-9996-3c9ff989e413.png)
+
+
+- CAMERA_MOVE
+![image](https://user-images.githubusercontent.com/52689953/124916621-d369ab80-e02d-11eb-8ae1-45882f747461.png)
+
+
+- BROOM_MOVE
+![image](https://user-images.githubusercontent.com/52689953/124916664-e11f3100-e02d-11eb-9d49-9675f2dd205f.png)
+
+
+- BROOM_GENERATE
+![image](https://user-images.githubusercontent.com/52689953/124916706-ebd9c600-e02d-11eb-9575-48edfbc0ecda.png)
+
 
 ### 구현 영상
-프로젝트 일지
+## 프로젝트 일지
 - 역할분담
-- 사용한 에셋 및 출처
+![image](https://user-images.githubusercontent.com/52689953/124916736-f5632e00-e02d-11eb-977e-9f62f8c3d035.png)
+
 - 텀 프로젝트 구현시 어려웠던 점
+1. 싱글톤 : 유니티로 게임을 개발하다 보니여러 게임 오브젝트가 접근해야 하는 스크립트가 있을 수 있습니다.그래서 싱글 턴을 사용하면 정말 좋다 생각했습니다.Google에 싱글 톤을 만드는 방법을 검색해봤지만코드가 전반적으로 어렵게 느껴져서 시도하지 못했습니다.
+
+2. 점수계산 : 처음에 각 동심원 오브젝트에 Collider를 추가하고 isTrigger 모드로 통과도 되고 충돌도 감지하게 했습니다.
+OnTriggerStay를 사용하여 stone이 각 동심원에 충돌이 유지될 때 점수를 합하는 식으로 알고리즘을 작성했습니다.
+하지만 문제점은 각 stone의 broom이 상속되어 있어 충돌 체크가 잘 안 맞았습니다.
+
+3. 게임 매니저, 코루틴 사용 : 카메라의 player를 바꿔주기 위해 지정한 상황이 끝날 때까지 기다리는 코루틴 WaitUntil을 사용했을 때 yield 문에 오류가 자꾸 떠서 시도하지 못했습니다.
+코루틴에 대해 더 공부해야겠습니다.
+
+4. 효과음 : Stone과 Stone이 부딪혔을 때 리얼함을 주고 싶어서 무료 타격음을
+다운해서 적용하였는데 소리가 잘 들리지않았습니다.
 
 
 
