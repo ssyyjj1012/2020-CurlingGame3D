@@ -20,7 +20,6 @@
   
 
 
-
 ### ● 게임 조작 방법
 <img src = https://user-images.githubusercontent.com/52689953/123449582-c8b71b80-d616-11eb-9ecd-35d5360154b4.png width=800 height=500>
 
@@ -68,8 +67,13 @@
 ![image](https://user-images.githubusercontent.com/52689953/124916485-b3d28300-e02d-11eb-8761-145fdbd5bd65.png)
 
 
+
+
 - IMAGE_CUT
 ![image](https://user-images.githubusercontent.com/52689953/124916567-c6e55300-e02d-11eb-9996-3c9ff989e413.png)
+
+
+
 
 
 - CAMERA_MOVE
